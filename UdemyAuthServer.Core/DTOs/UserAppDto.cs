@@ -1,0 +1,16 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace UdemyAuthServer.Core.DTOs
+{
+   public class UserAppDto //model içerisinde ki UserApp içinde (identity kütüphannesindeki) gereksiz alanlar var bunu kullanıcıya göstermek istemediğimden bunu oluşturdum. 
+    {
+        public string Id { get; set; }
+        public string UserName { get; set; }
+        public string Email { get; set; }
+        public string City { get; set; }
+    }
+}
